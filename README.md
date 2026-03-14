@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# > devroast
 
-## Getting Started
+**Cole seu código. Receba uma avaliação brutal.**
 
-First, run the development server:
+devroast é um app que analisa seu código e devolve uma nota de 0 a 10 — sem papas na língua. Quanto pior o código, maior a vergonha pública.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## como funciona
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Cole seu código** no editor
+2. **Ative o roast mode** se quiser o máximo de sarcasmo
+3. **Envie** e receba sua nota + análise detalhada dos problemas
+4. **Entre para o leaderboard** — os piores códigos ficam expostos para a internet inteira ver
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## o leaderboard da vergonha
 
-To learn more about Next.js, take a look at the following resources:
+Todo código avaliado concorre a um lugar no **shame leaderboard** — um ranking público dos piores códigos já submetidos. Quanto menor a nota, mais alto no pódio da vergonha.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## a nota
 
-## Deploy on Vercel
+A avaliação vai de **0 a 10**. Zero significa que você deveria reconsiderar sua carreira. Dez significa que talvez você saiba o que está fazendo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Cada problema encontrado vem com uma classificação:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🔴 **critical** — isso não deveria existir
+- 🟡 **warning** — problemático, mas sobrevivível
+- 🟢 **good** — ok, você acertou essa
+
+---
+
+## feito durante a NLW da Rocketseat
